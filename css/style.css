@@ -1,0 +1,72 @@
+
+
+body{
+	background: url(../img/imagem02.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size:100% 100%;
+	background-size: 100%;
+}
+
+.container{
+	width: 700px;
+	height: 500px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.jumbotron{
+	width: 500px;
+	margin:auto;
+	opacity: 0.93;
+}
+.jumbotron h2{
+	box-shadow: 10px 10px 8px #888888;
+	font-size: 20pt;
+	padding: 5px 20px;	
+
+}
+label{
+	cursor: pointer;
+	display: block;
+	margin-left: 30px;
+	
+}
+#formulario input{
+	display: block;
+	width: 85%;
+	margin-bottom: 10px;
+	margin-left: 30px;
+
+}
+#formulario .btn{
+	margin: 0 40%;
+	
+}
+#formulario .btn:hover{
+	background-color: darkred;
+}
+.patio{
+	
+	margin: auto;
+}
+table{
+	color: black;	
+}
+table thead{
+	background-color: darkred;
+	font-size: 13pt;
+	font-weight: bold;
+	opacity: .8;
+
+}
+table tr{
+	background-color: darkgrey;
+	opacity: 0.8;
+	font-weight: bold;
+}
+.patio tbody{
+	color: #000;
+}
+tbody:hover{
+	background: #dedede;
+	color: #000;
+}
